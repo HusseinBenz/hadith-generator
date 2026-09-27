@@ -7,7 +7,6 @@
   var KEEP_KEY = 'hg-kept';
   var STUDIO_KEY = 'hg-studio';
   var MAIN_TOPICS = ['Character', 'Charity', 'Faith', 'Family', 'Knowledge', 'Brotherhood', 'Neighbors', 'Worship', 'Speech'];
-  var AR_DIGITS = '٠١٢٣٤٥٦٧٨٩';
 
   var hadiths = [];
   var current = null;
@@ -24,7 +23,7 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* private mode */ }
   }
   function ar() { return Sakina.lang() === 'ar'; }
-  function num(n) { return ar() ? String(n).replace(/\d/g, function (d) { return AR_DIGITS[d]; }) : String(n); }
+  function num(n) { return Sakina.num(n); }
   function T(en, arText) { return ar() ? arText : en; }
 
   function labelButtons() {

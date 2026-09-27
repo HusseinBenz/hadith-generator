@@ -209,11 +209,12 @@ var HadithCard = (function () {
     ctx.direction = metaAr ? 'rtl' : 'ltr';
     ctx.fillStyle = P.muted;
     ctx.font = (metaAr ? '500 ' : '500 ') + Math.round(27 * unit) + 'px ' + (metaAr ? FONTS.arUi : FONTS.ui);
+    var arNum = function (v) { return window.Sakina ? Sakina.numAr(v) : v; };
     var who = metaAr ? 'الراوي: ' + (h.narrator_ar || h.narrator) : 'Narrated by ' + h.narrator;
     ctx.fillText(who, cx, top);
     ctx.fillStyle = P.accent;
     ctx.font = '700 ' + Math.round(27 * unit) + 'px ' + (metaAr ? FONTS.arUi : FONTS.ui);
-    wrap(ctx, metaAr ? (h.reference_ar || h.reference) : h.reference, box.w).forEach(function (line, i) {
+    wrap(ctx, metaAr ? arNum(h.reference_ar || h.reference) : h.reference, box.w).forEach(function (line, i) {
       ctx.fillText(line, cx, top + (i + 1) * 40 * unit);
     });
     ctx.restore();
