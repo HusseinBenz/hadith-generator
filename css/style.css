@@ -1,0 +1,157 @@
+:root {
+  --bg: #0a1722;
+  --bg-alt: #0d2741;
+  --card: #102a3d;
+  --text: #eef3f8;
+  --muted: #9fb2c7;
+  --gold: #d2b779;
+  --gold-soft: #f0dbb0;
+  --border: rgba(210, 183, 121, 0.25);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Cairo", "Amiri", system-ui, sans-serif;
+}
+
+.geo-pattern {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(210, 183, 121, 0.06), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(210, 183, 121, 0.05), transparent 40%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--gold-soft);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.brand-mark { font-size: 1.4rem; }
+
+.back-link {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.back-link:hover { color: var(--gold-soft); }
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 24px 64px;
+}
+
+.hero { text-align: center; margin: 24px 0 40px; }
+.hero h1 {
+  font-family: "Cinzel Decorative", "Cairo", serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 0 0 12px;
+  color: var(--gold-soft);
+}
+.lede { color: var(--muted); max-width: 46ch; margin: 0 auto; line-height: 1.6; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 36px 32px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+}
+
+.topic {
+  display: inline-block;
+  margin: 0 0 18px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--gold);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hadith-text {
+  margin: 0 0 20px;
+  font-size: clamp(1.1rem, 2.6vw, 1.4rem);
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+.meta { color: var(--muted); font-size: 0.92rem; margin: 0; }
+.meta .dot { margin: 0 8px; }
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 28px 0 8px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 26px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--gold), #b98f4c);
+  color: #1a1200;
+}
+.btn-primary:hover { opacity: 0.92; }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--gold-soft);
+  border: 1px solid var(--border);
+}
+.btn-ghost:hover { border-color: var(--gold); }
+
+.disclaimer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  max-width: 52ch;
+  margin: 24px auto 0;
+  line-height: 1.6;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 24px;
+}
+.site-footer a { color: var(--gold-soft); }
+
+@media (max-width: 480px) {
+  .card { padding: 28px 20px; }
+}
