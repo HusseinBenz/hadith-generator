@@ -4,209 +4,329 @@
     "text": "Actions are judged by intentions, and every person will be rewarded according to what they intended.",
     "narrator": "Umar ibn al-Khattab",
     "reference": "Sahih al-Bukhari 1, Sahih Muslim 1907",
-    "topic": "Intentions"
+    "topic": "Intentions",
+    "text_ar": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+    "narrator_ar": "عمر بن الخطاب",
+    "reference_ar": "صحيح البخاري ١، صحيح مسلم ١٩٠٧",
+    "topic_ar": "النية"
   },
   {
     "id": 2,
     "text": "None of you truly believes until he loves for his brother what he loves for himself.",
     "narrator": "Anas ibn Malik",
     "reference": "Sahih al-Bukhari 13, Sahih Muslim 45",
-    "topic": "Brotherhood"
+    "topic": "Brotherhood",
+    "text_ar": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "narrator_ar": "أنس بن مالك",
+    "reference_ar": "صحيح البخاري ١٣، صحيح مسلم ٤٥",
+    "topic_ar": "الأخوّة"
   },
   {
     "id": 3,
     "text": "The strong person is not the one who overcomes people through strength, but the one who controls himself while in anger.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 6114, Sahih Muslim 2609",
-    "topic": "Self-control"
+    "topic": "Self-control",
+    "text_ar": "لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الغَضَبِ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٦١١٤، صحيح مسلم ٢٦٠٩",
+    "topic_ar": "ضبط النفس"
   },
   {
     "id": 4,
     "text": "Whoever believes in Allah and the Last Day should speak good or remain silent.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 6018, Sahih Muslim 47",
-    "topic": "Speech"
+    "topic": "Speech",
+    "text_ar": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَاليَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٦٠١٨، صحيح مسلم ٤٧",
+    "topic_ar": "الكلام"
   },
   {
     "id": 5,
     "text": "The best among you are those who have the best manners and character.",
     "narrator": "Abdullah ibn Amr",
     "reference": "Sahih al-Bukhari 6035, Sahih Muslim 2321",
-    "topic": "Character"
+    "topic": "Character",
+    "text_ar": "إِنَّ مِنْ خِيَارِكُمْ أَحْسَنَكُمْ أَخْلَاقًا",
+    "narrator_ar": "عبد الله بن عمرو",
+    "reference_ar": "صحيح البخاري ٦٠٣٥، صحيح مسلم ٢٣٢١",
+    "topic_ar": "الأخلاق"
   },
   {
     "id": 6,
     "text": "Whoever removes a hardship from a believer in this world, Allah will remove from him one of the hardships of the Day of Judgment.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih Muslim 2699",
-    "topic": "Kindness"
+    "topic": "Kindness",
+    "text_ar": "مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا، نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ القِيَامَةِ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح مسلم ٢٦٩٩",
+    "topic_ar": "الإحسان"
   },
   {
     "id": 7,
     "text": "The believers who show the most perfect faith are those with the best character, and the best of you are those who are best to their wives.",
     "narrator": "Abu Hurayrah",
     "reference": "Sunan al-Tirmidhi 1162",
-    "topic": "Family"
+    "topic": "Family",
+    "text_ar": "أَكْمَلُ المُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا، وَخِيَارُكُمْ خِيَارُكُمْ لِنِسَائِهِمْ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "سنن الترمذي ١١٦٢",
+    "topic_ar": "الأسرة"
   },
   {
     "id": 8,
     "text": "Smiling at your brother is charity.",
     "narrator": "Abu Dharr",
     "reference": "Sunan al-Tirmidhi 1956",
-    "topic": "Charity"
+    "topic": "Charity",
+    "text_ar": "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ",
+    "narrator_ar": "أبو ذر",
+    "reference_ar": "سنن الترمذي ١٩٥٦",
+    "topic_ar": "الصدقة"
   },
   {
     "id": 9,
     "text": "He is not a believer whose stomach is filled while his neighbor beside him is hungry.",
     "narrator": "Ibn Abbas",
     "reference": "Al-Adab al-Mufrad 112 (Bukhari)",
-    "topic": "Neighbors"
+    "topic": "Neighbors",
+    "text_ar": "لَيْسَ المُؤْمِنُ الَّذِي يَشْبَعُ وَجَارُهُ جَائِعٌ إِلَى جَنْبِهِ",
+    "narrator_ar": "ابن عباس",
+    "reference_ar": "الأدب المفرد ١١٢ للبخاري",
+    "topic_ar": "الجار"
   },
   {
     "id": 10,
     "text": "Seeking knowledge is an obligation upon every Muslim.",
     "narrator": "Anas ibn Malik",
     "reference": "Sunan Ibn Majah 224",
-    "topic": "Knowledge"
+    "topic": "Knowledge",
+    "text_ar": "طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+    "narrator_ar": "أنس بن مالك",
+    "reference_ar": "سنن ابن ماجه ٢٢٤",
+    "topic_ar": "العلم"
   },
   {
     "id": 11,
     "text": "Whoever travels a path in search of knowledge, Allah will make easy for him a path to Paradise.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih Muslim 2699",
-    "topic": "Knowledge"
+    "topic": "Knowledge",
+    "text_ar": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الجَنَّةِ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح مسلم ٢٦٩٩",
+    "topic_ar": "العلم"
   },
   {
     "id": 12,
     "text": "The most beloved of deeds to Allah are those done consistently, even if small.",
     "narrator": "Aisha",
     "reference": "Sahih al-Bukhari 6465, Sahih Muslim 782",
-    "topic": "Worship"
+    "topic": "Worship",
+    "text_ar": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ",
+    "narrator_ar": "عائشة",
+    "reference_ar": "صحيح البخاري ٦٤٦٥، صحيح مسلم ٧٨٢",
+    "topic_ar": "العبادة"
   },
   {
     "id": 13,
     "text": "Richness is not having many possessions; rather, true richness is the richness of the soul.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 6446, Sahih Muslim 1051",
-    "topic": "Contentment"
+    "topic": "Contentment",
+    "text_ar": "لَيْسَ الغِنَى عَنْ كَثْرَةِ العَرَضِ، وَلَكِنَّ الغِنَى غِنَى النَّفْسِ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٦٤٤٦، صحيح مسلم ١٠٥١",
+    "topic_ar": "القناعة"
   },
   {
     "id": 14,
     "text": "A good word is charity.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 2989, Sahih Muslim 1009",
-    "topic": "Charity"
+    "topic": "Charity",
+    "text_ar": "الكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٢٩٨٩، صحيح مسلم ١٠٠٩",
+    "topic_ar": "الصدقة"
   },
   {
     "id": 15,
     "text": "Whoever guides someone to good will have a reward like the one who does it.",
     "narrator": "Abu Mas'ud al-Ansari",
     "reference": "Sahih Muslim 1893",
-    "topic": "Guidance"
+    "topic": "Guidance",
+    "text_ar": "مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ",
+    "narrator_ar": "أبو مسعود الأنصاري",
+    "reference_ar": "صحيح مسلم ١٨٩٣",
+    "topic_ar": "الدلالة على الخير"
   },
   {
     "id": 16,
     "text": "The example of the believers in their affection, mercy and compassion for each other is that of a body: when a limb aches, the whole body reacts with fever and sleeplessness.",
     "narrator": "Nu'man ibn Bashir",
     "reference": "Sahih al-Bukhari 6011, Sahih Muslim 2586",
-    "topic": "Brotherhood"
+    "topic": "Brotherhood",
+    "text_ar": "مَثَلُ المُؤْمِنِينَ فِي تَوَادِّهِمْ وَتَرَاحُمِهِمْ وَتَعَاطُفِهِمْ مَثَلُ الجَسَدِ، إِذَا اشْتَكَى مِنْهُ عُضْوٌ تَدَاعَى لَهُ سَائِرُ الجَسَدِ بِالسَّهَرِ وَالحُمَّى",
+    "narrator_ar": "النعمان بن بشير",
+    "reference_ar": "صحيح البخاري ٦٠١١، صحيح مسلم ٢٥٨٦",
+    "topic_ar": "الأخوّة"
   },
   {
     "id": 17,
     "text": "None of you truly believes until his desires are subject to what I have brought.",
     "narrator": "Abdullah ibn Amr",
     "reference": "40 Hadith of al-Nawawi 41",
-    "topic": "Faith"
+    "topic": "Faith",
+    "text_ar": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ",
+    "narrator_ar": "عبد الله بن عمرو",
+    "reference_ar": "الأربعون النووية ٤١",
+    "topic_ar": "الإيمان"
   },
   {
     "id": 18,
     "text": "Be mindful of Allah, and He will protect you. Be mindful of Allah, and you will find Him in front of you.",
     "narrator": "Ibn Abbas",
     "reference": "Sunan al-Tirmidhi 2516; 40 Hadith of al-Nawawi 19",
-    "topic": "Faith"
+    "topic": "Faith",
+    "text_ar": "احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ",
+    "narrator_ar": "ابن عباس",
+    "reference_ar": "سنن الترمذي ٢٥١٦، الأربعون النووية ١٩",
+    "topic_ar": "الإيمان"
   },
   {
     "id": 19,
     "text": "Fear Allah wherever you are, follow a bad deed with a good one to erase it, and behave well towards people.",
     "narrator": "Abu Dharr and Mu'adh ibn Jabal",
     "reference": "Sunan al-Tirmidhi 1987; 40 Hadith of al-Nawawi 18",
-    "topic": "Character"
+    "topic": "Character",
+    "text_ar": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ",
+    "narrator_ar": "أبو ذر ومعاذ بن جبل",
+    "reference_ar": "سنن الترمذي ١٩٨٧، الأربعون النووية ١٨",
+    "topic_ar": "الأخلاق"
   },
   {
     "id": 20,
     "text": "Leave what makes you doubt for what does not make you doubt.",
     "narrator": "Al-Hasan ibn Ali",
     "reference": "Sunan al-Tirmidhi 2518; 40 Hadith of al-Nawawi 11",
-    "topic": "Certainty"
+    "topic": "Certainty",
+    "text_ar": "دَعْ مَا يَرِيبُكَ إِلَى مَا لَا يَرِيبُكَ",
+    "narrator_ar": "الحسن بن علي",
+    "reference_ar": "سنن الترمذي ٢٥١٨، الأربعون النووية ١١",
+    "topic_ar": "اليقين"
   },
   {
     "id": 21,
     "text": "None of you truly believes until he wishes for his neighbor what he wishes for himself.",
     "narrator": "Anas ibn Malik",
-    "reference": "Sahih al-Bukhari 13",
-    "topic": "Neighbors"
+    "reference": "Sahih Muslim 45",
+    "topic": "Neighbors",
+    "text_ar": "لَا يُؤْمِنُ عَبْدٌ حَتَّى يُحِبَّ لِجَارِهِ - أَوْ قَالَ: لِأَخِيهِ - مَا يُحِبُّ لِنَفْسِهِ",
+    "narrator_ar": "أنس بن مالك",
+    "reference_ar": "صحيح مسلم ٤٥",
+    "topic_ar": "الجار"
   },
   {
     "id": 22,
     "text": "Modesty is a branch of faith.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 9, Sahih Muslim 35",
-    "topic": "Modesty"
+    "topic": "Modesty",
+    "text_ar": "الحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٩، صحيح مسلم ٣٥",
+    "topic_ar": "الحياء"
   },
   {
     "id": 23,
     "text": "The most perfect of believers in faith are those best in character, and the best of you are those who are best to their families.",
     "narrator": "Abu Hurayrah",
     "reference": "Sunan al-Tirmidhi 1162",
-    "topic": "Family"
+    "topic": "Family",
+    "text_ar": "أَكْمَلُ المُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا، وَخِيَارُكُمْ خِيَارُكُمْ لِنِسَائِهِمْ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "سنن الترمذي ١١٦٢",
+    "topic_ar": "الأسرة"
   },
   {
     "id": 24,
     "text": "Whoever does not show mercy to people, Allah will not show mercy to him.",
     "narrator": "Jarir ibn Abdullah",
     "reference": "Sahih al-Bukhari 6013, Sahih Muslim 2319",
-    "topic": "Mercy"
+    "topic": "Mercy",
+    "text_ar": "مَنْ لَا يَرْحَمِ النَّاسَ لَا يَرْحَمْهُ اللَّهُ",
+    "narrator_ar": "جرير بن عبد الله",
+    "reference_ar": "صحيح البخاري ٦٠١٣، صحيح مسلم ٢٣١٩",
+    "topic_ar": "الرحمة"
   },
   {
     "id": 25,
     "text": "Paradise lies at the feet of your mother.",
     "narrator": "Mu'awiyah ibn Jahima",
     "reference": "Sunan al-Nasa'i 3104",
-    "topic": "Family"
+    "topic": "Family",
+    "text_ar": "فَالْزَمْهَا فَإِنَّ الجَنَّةَ تَحْتَ رِجْلَيْهَا",
+    "narrator_ar": "معاوية بن جاهمة",
+    "reference_ar": "سنن النسائي ٣١٠٤",
+    "topic_ar": "الأسرة"
   },
   {
     "id": 26,
     "text": "The upper hand is better than the lower hand. The upper hand is the one that gives, and the lower hand is the one that takes.",
     "narrator": "Ibn Umar",
     "reference": "Sahih al-Bukhari 1429, Sahih Muslim 1033",
-    "topic": "Charity"
+    "topic": "Charity",
+    "text_ar": "اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ السُّفْلَى، وَاليَدُ العُلْيَا هِيَ المُنْفِقَةُ، وَالسُّفْلَى هِيَ السَّائِلَةُ",
+    "narrator_ar": "ابن عمر",
+    "reference_ar": "صحيح البخاري ١٤٢٩، صحيح مسلم ١٠٣٣",
+    "topic_ar": "الصدقة"
   },
   {
     "id": 27,
     "text": "None of you truly believes until I am more beloved to him than his father, his child, and all of humankind.",
     "narrator": "Anas ibn Malik",
     "reference": "Sahih al-Bukhari 15, Sahih Muslim 44",
-    "topic": "Faith"
+    "topic": "Faith",
+    "text_ar": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى أَكُونَ أَحَبَّ إِلَيْهِ مِنْ وَالِدِهِ وَوَلَدِهِ وَالنَّاسِ أَجْمَعِينَ",
+    "narrator_ar": "أنس بن مالك",
+    "reference_ar": "صحيح البخاري ١٥، صحيح مسلم ٤٤",
+    "topic_ar": "الإيمان"
   },
   {
     "id": 28,
     "text": "A Muslim is one from whose tongue and hand other Muslims are safe.",
     "narrator": "Abdullah ibn Amr",
     "reference": "Sahih al-Bukhari 10, Sahih Muslim 40",
-    "topic": "Character"
+    "topic": "Character",
+    "text_ar": "المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    "narrator_ar": "عبد الله بن عمرو",
+    "reference_ar": "صحيح البخاري ١٠، صحيح مسلم ٤٠",
+    "topic_ar": "الأخلاق"
   },
   {
     "id": 29,
     "text": "Whoever believes in Allah and the Last Day should honor his guest.",
     "narrator": "Abu Hurayrah",
     "reference": "Sahih al-Bukhari 6018, Sahih Muslim 47",
-    "topic": "Hospitality"
+    "topic": "Hospitality",
+    "text_ar": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَاليَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ",
+    "narrator_ar": "أبو هريرة",
+    "reference_ar": "صحيح البخاري ٦٠١٨، صحيح مسلم ٤٧",
+    "topic_ar": "الضيافة"
   },
   {
     "id": 30,
     "text": "Religion is sincerity, sincerity to Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk.",
     "narrator": "Tamim al-Dari",
     "reference": "Sahih Muslim 55",
-    "topic": "Sincerity"
+    "topic": "Sincerity",
+    "text_ar": "الدِّينُ النَّصِيحَةُ. قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ المُسْلِمِينَ وَعَامَّتِهِمْ",
+    "narrator_ar": "تميم الداري",
+    "reference_ar": "صحيح مسلم ٥٥",
+    "topic_ar": "النصيحة"
   }
 ]

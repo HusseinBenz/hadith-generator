@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="A hadith generator: draw a random, well-known authentic hadith with its narrator and reference. Simple, offline-friendly, no tracking.">
+<meta name="description" content="A hadith generator: draw a well-known authentic hadith with its narrator and reference, in Arabic and English, and turn it into a beautiful image for social media.">
 <meta name="theme-color" content="#F6F4EE">
-<title>Hadith Generator</title>
-<script>(function(){var t;try{t=localStorage.getItem('sakina-theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>Hadith Generator · مولّد الأحاديث</title>
+<script>(function(){var d=document.documentElement,t,l;try{t=localStorage.getItem('sakina-theme');l=localStorage.getItem('sakina-lang')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}var q=/[?&]lang=(ar|en)/.exec(location.search);if(q)l=q[1];if(l!=='ar'&&l!=='en'){l=(navigator.language||'').slice(0,2)==='ar'?'ar':'en'}d.setAttribute('data-theme',t);d.setAttribute('data-lang',l);d.lang=l;d.dir=l==='ar'?'rtl':'ltr'})();</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%238E6214' d='M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z'/%3E%3Ccircle cx='12' cy='12' r='4.4' fill='%23F6F4EE'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/sakina.css">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/sakina.css?v=sk2">
+<link rel="stylesheet" href="css/style.css?v=sk2">
 </head>
 <body class="sk-project-hadith">
-<a class="sk-skip" href="#main">Skip to content</a>
+<a class="sk-skip" href="#main"><span class="en">Skip to content</span><span class="ar">تخطَّ إلى المحتوى</span></a>
 <div class="sk-pattern" aria-hidden="true"></div>
 
 <header class="sk-header">
   <div class="sk-container sk-header__inner">
     <a class="sk-brand" href="./">
       <span class="sk-tile sk-tile--sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg></span>
-      <span class="sk-brand__text"><span class="sk-brand__name">Hadith Generator</span><span class="sk-brand__sub" lang="ar">حديث عند الحاجة</span></span>
+      <span class="sk-brand__text"><span class="sk-brand__name"><span class="en">Hadith Generator</span><span class="ar">مولّد الأحاديث</span></span><span class="sk-brand__sub"><span class="en" lang="ar">مولّد الأحاديث</span><span class="ar" lang="en">Hadith Generator</span></span></span>
     </a>
     <nav class="sk-header__nav" aria-label="Site">
-      <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/islamic-projects/" aria-label="All Islamic projects">
-        <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm">All projects</span></a>
+      <button class="sk-btn sk-btn--ghost sk-btn--sm sk-lang-btn" type="button" data-sk-lang-toggle><span class="en" lang="ar">العربية</span><span class="ar" lang="en">English</span></button>
+      <a class="sk-btn sk-btn--line sk-btn--sm sk-projects" href="https://husseinbenz.github.io/islamic-projects/">
+        <span class="sk-constellation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sk-hide-sm"><span class="en">All projects</span><span class="ar">كل المشاريع</span></span></a>
       <button class="sk-icon-btn sk-theme-btn" type="button" data-sk-theme-toggle aria-label="Switch to night theme">
         <svg class="sk-i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
         <svg class="sk-i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -37,52 +38,105 @@
 
 <main id="main" class="sk-container stage">
   <section class="intro">
-    <h1 class="sk-display intro__title sk-rise">A hadith, <em>when you need one</em></h1>
-    <p class="sk-lede intro__lede sk-rise sk-d1">Draw a random, well-known authentic hadith — with its narrator and reference — for reflection, a khutbah, or a quiet moment.</p>
+    <h1 class="sk-display intro__title sk-rise"><span class="en">A hadith, <em>when you need one</em></span><span class="ar">حديثٌ <em>حين تحتاجه</em></span></h1>
+    <p class="sk-lede intro__lede sk-rise sk-d1"><span class="en">Draw a well-known authentic hadith — with its narrator and reference — for reflection, a khutbah, or a quiet moment. Then turn it into an image to share.</span><span class="ar">اسحب حديثًا صحيحًا مشهورًا مع راويه ومصدره — للتأمل أو لخطبة أو للحظة هادئة، ثم حوّله إلى صورة جميلة لمشاركتها.</span></p>
   </section>
 
   <section class="deck sk-rise sk-d2" aria-label="Hadith">
     <div class="deck__back deck__back--1 sk-card" aria-hidden="true"></div>
     <div class="deck__back deck__back--2 sk-card" aria-hidden="true"></div>
     <article class="deck__card sk-card" id="card" aria-live="polite" aria-busy="true">
-      <span class="deck__count" id="count">Loading…</span>
+      <span class="deck__count" id="count">…</span>
       <span class="sk-tag sk-tag--accent deck__topic" id="topic"></span>
-      <blockquote class="sk-display deck__text" id="hadithText"></blockquote>
+      <blockquote class="deck__text" id="hadithText"></blockquote>
+      <p class="deck__ar sk-ar" id="hadithAr" lang="ar" dir="rtl"></p>
       <div class="sk-divider deck__divider" aria-hidden="true"><svg width="14" height="14" viewBox="-12 -12 24 24"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></div>
-      <p class="deck__meta"><span>Narrated by <b id="narrator"></b></span><span class="deck__ref" id="reference"></span></p>
+      <p class="deck__meta"><span><span class="en">Narrated by</span><span class="ar">الراوي:</span> <b id="narrator"></b></span><span class="deck__ref" id="reference"></span></p>
     </article>
-    <span class="deck__seal sk-arch" aria-hidden="true"><svg class="sk-slow-spin" width="30" height="30" viewBox="-12 -12 24 24"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></span>
+    <span class="deck__seal" aria-hidden="true"><svg class="sk-slow-spin" width="30" height="30" viewBox="-12 -12 24 24"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></span>
   </section>
 
   <div class="actions sk-rise sk-d3">
     <button class="sk-btn sk-btn--accent sk-btn--lg actions__draw" id="nextBtn" type="button">
       <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>
-      Draw another</button>
-    <button class="sk-icon-btn sk-icon-btn--lg" id="copyBtn" type="button" aria-label="Copy hadith with reference" title="Copy">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
-    <button class="sk-icon-btn sk-icon-btn--lg" id="shareBtn" type="button" aria-label="Share this hadith" title="Share">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg></button>
-    <button class="sk-icon-btn sk-icon-btn--lg sk-keep" id="keepBtn" type="button" aria-pressed="false" aria-label="Keep this hadith" title="Keep">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></button>
+      <span class="en">Draw another</span><span class="ar">حديث آخر</span></button>
+    <button class="sk-btn sk-btn--line sk-btn--lg actions__image" id="imageBtn" type="button">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+      <span class="en">Make an image</span><span class="ar">صمّم صورة</span></button>
+    <div class="actions__icons">
+      <button class="sk-icon-btn sk-icon-btn--lg" id="copyBtn" type="button" data-label-en="Copy hadith with reference" data-label-ar="انسخ الحديث مع مصدره">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      <button class="sk-icon-btn sk-icon-btn--lg" id="shareBtn" type="button" data-label-en="Share this hadith" data-label-ar="شارك هذا الحديث">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg></button>
+      <button class="sk-icon-btn sk-icon-btn--lg sk-keep" id="keepBtn" type="button" aria-pressed="false" data-label-en="Keep this hadith" data-label-ar="احفظ هذا الحديث">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></button>
+    </div>
   </div>
-  <p class="hint"><span class="sk-hide-sm">or press <span class="sk-kbd">Space</span> ·</span> <span id="keptCount">0 kept on this device</span></p>
+  <p class="hint"><span class="sk-hide-sm"><span class="en">or press</span><span class="ar">أو اضغط</span> <span class="sk-kbd">Space</span> ·</span> <span id="keptCount"></span></p>
 
   <section class="topics" aria-labelledby="topicsLabel">
-    <span class="sk-eyebrow" id="topicsLabel">Draw from</span>
+    <span class="sk-eyebrow" id="topicsLabel"><span class="en">Draw from</span><span class="ar">اختر الموضوع</span></span>
     <div class="topics__list" id="topics" role="group" aria-labelledby="topicsLabel"></div>
   </section>
 </main>
 
+<!-- Image studio -->
+<dialog class="studio" id="studio" aria-labelledby="studioTitle">
+  <div class="studio__inner">
+    <header class="studio__head">
+      <h2 class="sk-display" id="studioTitle"><span class="en">Make an <em>image</em></span><span class="ar">صمّم <em>صورة</em></span></h2>
+      <button class="sk-icon-btn" type="button" id="studioClose" data-label-en="Close" data-label-ar="إغلاق">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    </header>
+    <div class="studio__body">
+      <div class="studio__preview"><canvas id="cardCanvas" width="1080" height="1080" role="img" aria-label="Hadith image preview"></canvas></div>
+      <div class="studio__controls">
+        <fieldset class="studio__group">
+          <legend class="sk-eyebrow"><span class="en">Design</span><span class="ar">التصميم</span></legend>
+          <div class="studio__options" id="styleOptions"></div>
+        </fieldset>
+        <fieldset class="studio__group">
+          <legend class="sk-eyebrow"><span class="en">Colours</span><span class="ar">الألوان</span></legend>
+          <div class="swatches" id="paletteOptions"></div>
+        </fieldset>
+        <fieldset class="studio__group">
+          <legend class="sk-eyebrow"><span class="en">Size</span><span class="ar">المقاس</span></legend>
+          <div class="studio__options" id="sizeOptions"></div>
+        </fieldset>
+        <fieldset class="studio__group">
+          <legend class="sk-eyebrow"><span class="en">Text</span><span class="ar">النص</span></legend>
+          <div class="studio__options" id="langOptions"></div>
+        </fieldset>
+        <button class="sk-btn sk-btn--soft studio__surprise" type="button" id="surpriseBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 17v4M17 19h4"/></svg>
+          <span class="en">Surprise me</span><span class="ar">فاجئني</span></button>
+      </div>
+    </div>
+    <footer class="studio__foot">
+      <button class="sk-btn sk-btn--accent sk-btn--lg" type="button" id="downloadBtn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+        <span class="en">Download PNG</span><span class="ar">تنزيل الصورة</span></button>
+      <button class="sk-btn sk-btn--line sk-btn--lg" type="button" id="shareImageBtn" hidden>
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg>
+        <span class="en">Share</span><span class="ar">مشاركة</span></button>
+      <button class="sk-btn sk-btn--ghost sk-btn--lg" type="button" id="copyImageBtn" hidden>
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span class="en">Copy image</span><span class="ar">نسخ الصورة</span></button>
+    </footer>
+  </div>
+</dialog>
+
 <footer class="sk-footer">
   <div class="sk-container sk-footer__inner">
-    <p>Educational reference only. Always verify wording and rulings with a qualified scholar or a primary hadith collection before relying on it.</p>
+    <p><span class="en">Educational reference only. Always verify wording and rulings with a qualified scholar or a primary hadith collection before relying on it.</span><span class="ar">مرجع تعليمي فقط. تحقّق دائمًا من اللفظ والحكم عند عالم مؤهل أو في كتب الحديث الأصلية قبل الاعتماد عليه.</span></p>
     <a class="sk-footer__home" href="https://husseinbenz.github.io/islamic-projects/">
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/></svg>
-      Part of Islamic Projects</a>
+      <span class="en">Part of Islamic Projects</span><span class="ar">من المشاريع الإسلامية</span></a>
   </div>
 </footer>
 
-<script src="js/sakina.js"></script>
-<script src="js/app.js"></script>
+<script src="js/sakina.js?v=sk2"></script>
+<script src="js/card.js?v=sk2"></script>
+<script src="js/app.js?v=sk2"></script>
 </body>
 </html>
